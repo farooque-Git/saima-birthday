@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Slab&display=swap'); */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../image/mineeeeee.jpg') center center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    color: white;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.col {
+    width: 1000px;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 50px;
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+}
